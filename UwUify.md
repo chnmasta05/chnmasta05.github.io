@@ -1,11 +1,11 @@
 <h1>The Ultimate UwUifier!</h1>
 <div class="rendered-form">
     <div class="formbuilder-text form-group field-in-str">
-        <label for="in-str" class="formbuilder-text-label">Input Text<span class="tooltip-element" tooltip="The text wished to be UwUified">?</span></label>
+        <label for="in-str" class="formbuilder-text-label">Input Text<span class="tooltip-element" tooltip="The text wished to be UwUified"></span></label>
         <input type="text" placeholder="Hello, World!" class="form-control" name="in-str" access="false" id="in-str" title="The text wished to be UwUified">
     </div>
     <div class="formbuilder-checkbox-group form-group field-yu-smiley">
-        <label for="yu-smiley" class="formbuilder-checkbox-group-label">Options<span class="tooltip-element" tooltip="Extra Options... Experiment with these!">?</span></label>
+        <label for="yu-smiley" class="formbuilder-checkbox-group-label">Options<span class="tooltip-element" tooltip="Extra Options... Experiment with these!"></span></label>
         <div class="checkbox-group">
             <div class="formbuilder-checkbox">
                 <input name="yu-smiley[]" access="false" id="yu-smiley-0" value="yu" type="checkbox">
@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="formbuilder-button form-group field-uwuify">
-        <button type="button" class="button btn-default btn" name="uwuify" value="true" access="false" style="default" id="uwuify" onclick="uwuwuwu()">UwUify!</button>
+        <button type="button" name="uwuify" value="true" access="false" style="default" id="uwuify" onclick="uwuwuwu()">UwUify!</button>
     </div>
 </div>
 <script type="text/javascript">
