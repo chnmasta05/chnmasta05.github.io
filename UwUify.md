@@ -21,8 +21,9 @@
         <button type="button" name="uwuify" value="true" access="false" style="default" id="uwuify" onclick="uwuwuwu()">UwUify!</button>
     </div>
 </div>
-<hr>
+<hr></hr>
 Tip: ctrl+A to select all
+
 <script type="text/javascript">
 const SMILEYS = [
     "(ᵘʷᵘ)",
