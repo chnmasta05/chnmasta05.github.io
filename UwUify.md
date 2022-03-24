@@ -1,15 +1,15 @@
 <h1>The Ultimate UwUifier!</h1>
 <div class="rendered-form">
     <div class="formbuilder-text form-group field-in-str">
-        <label for="in-str" class="formbuilder-text-label">Input Text<span class="tooltip-element" tooltip="The text wished to be UwUified"></span></label>
-        <input type="text" placeholder="Hello, World!" class="form-control" name="in-str" access="false" id="in-str" title="The text wished to be UwUified">
+        <label style="vertical-align:top" for="in-str" class="formbuilder-text-label">Input Text<span class="tooltip-element" tooltip="The text wished to be UwUified"></span></label>
+        <textarea type="text" placeholder="Hello, World!" class="form-control" name="in-str" access="false" id="in-str" title="The text wished to be UwUified"></textarea>
     </div>
     <div class="formbuilder-checkbox-group form-group field-yu-smiley">
-        <label for="yu-smiley" class="formbuilder-checkbox-group-label">Options<span class="tooltip-element" tooltip="Extra Options... Experiment with these!"></span></label>
+        <label for="yu-smiley" class="formbuilder-checkbox-group-label">Options<span class="tooltip-element" tooltip="Extra Options... Experiment with these!">?</span></label>
         <div class="checkbox-group">
             <div class="formbuilder-checkbox">
                 <input name="yu-smiley[]" access="false" id="yu-smiley-0" value="yu" type="checkbox">
-                <label for="yu-smiley-0">YUify?</label>
+                <label for="yu-smiley-0">YUify</label>
             </div>
             <div class="formbuilder-checkbox">
                 <input name="yu-smiley[]" access="false" id="yu-smiley-1" value="smiley" type="checkbox">
@@ -21,6 +21,8 @@
         <button type="button" name="uwuify" value="true" access="false" style="default" id="uwuify" onclick="uwuwuwu()">UwUify!</button>
     </div>
 </div>
+<hr>
+Tip: ctrl+A to select all
 <script type="text/javascript">
 const SMILEYS = [
     "(ᵘʷᵘ)",
@@ -83,7 +85,7 @@ function do_uwu(entry) {
 }
 
 function do_yu(entry) {
-    entry = entry.replaceAll(YU_REPLACE, "y$2")
+    entry = entry.replaceAll(YU_REPLACE, "y$1")
     return entry
 }
 
